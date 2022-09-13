@@ -24,3 +24,21 @@
 #     if n % i == 0:
 #         resultList.append(i)
 # print(resultList)
+
+
+# Task 32
+# Задайте последовательность чисел.
+# Напишите программу, которая выведет список
+# неповторяющихся элементов исходной последовательности.
+
+# from random import randint
+
+
+# n = int(input("Insert count of list: "))
+# initList = [0]*n
+# for i in range(n):
+#     initList[i] = randint(0, 10)
+# print(initList)
+
+# resultSet = set(initList)
+# print(resultSet)
