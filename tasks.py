@@ -96,3 +96,25 @@
 # print(resultString)
 # f = open("task33.txt", "w")
 # f.write(resultStringForFile)
+
+
+# Task 35
+# Даны два файла, в каждом из которых находится запись многочлена.
+# Задача - сформировать файл, содержащий сумму многочленов.
+# import sympy
+
+# file1 = open("task35-1.txt", "r")
+# polynom1 = file1.read()
+# print(polynom1)
+
+# file2 = open("task35-2.txt", "r")
+# polynom2 = file2.read()
+# print(polynom2)
+
+# resultPolynom = polynom1 + " + " + polynom2
+# print(resultPolynom)
+
+# x = sympy.Symbol("x")
+# resultPolynom = sympy.simplify(resultPolynom)
+# resultFile = open("task35-result", "w")
+# resultFile.write(str(resultPolynom))
