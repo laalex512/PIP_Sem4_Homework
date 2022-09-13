@@ -8,3 +8,19 @@
 
 # k = len(d.split(".")[1])
 # print(n[:n.find(".")+k+1])
+
+
+# Task 31
+# Задайте натуральное число N. Напишите программу,
+# которая составит список простых множителей числа N.
+
+# n = 38
+# simpleNums = [2]
+# for i in range(3, n, 2):
+#     if all(i % j != 0 for j in range(2, i//2)):
+#         simpleNums.append(i)                  # ряд простых чисел до N
+# resultList = []
+# for i in simpleNums:
+#     if n % i == 0:
+#         resultList.append(i)
+# print(resultList)
